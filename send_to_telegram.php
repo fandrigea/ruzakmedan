@@ -6,8 +6,8 @@ $alamat = htmlspecialchars($_POST['alamat']);
 $pesanan = json_decode($_POST['pesanan'], true);
 
 // Token dan Chat ID Bot Telegram Anda
-$token = "8092616728:AAEqil4Bz6P8ptbrakBdFEn8ft-PkNCnLf4";  // Ganti dengan token bot Anda
-$chat_id = "1045573640";  // Ganti dengan chat ID Anda
+$token = "8092616728:AAEqil4Bz6P8ptbrakBdFEn8ft-PkNCnLf4";  // token bot
+$chat_id = "1045573640";  // chat ID
 
 // Pesan yang akan dikirim ke Telegram
 $message = "*Detail Pemesanan:*\n";
